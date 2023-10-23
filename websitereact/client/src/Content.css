@@ -1,0 +1,43 @@
+.content_box{
+    width: 1100px;
+    border: 1px solid rgb(225, 225, 225);
+    border-radius: 10px;
+    box-shadow: 0px 10px 15px rgb(165, 165, 165);
+    margin: 1rem auto;
+    padding: 1rem;
+    background-color: white;
+}
+.icon{
+    display: flex;
+}
+.box_control{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 0.5rem;
+}
+.box-item{
+    margin: 1rem 0 0 0;
+    width: 100%;
+    overflow: hidden;
+    border: 1px solid rgb(189, 189, 189);
+    background-color: white;
+    border-radius: 5px;
+    transition: .2s;
+}
+.box-item:hover{
+    transform: scale(1.09);
+    z-index: 1;
+    box-shadow: 0px 10px 15px rgb(0, 0, 0);
+}
+.box-item p{
+    padding:0.5rem ;
+    font-size: 14px;
+}
+.m_name{
+    padding:0 0.5rem 0 0.5rem ;
+    font-size: 1rem;
+}
+.box-item img{
+    width: 100%;
+    height: auto;
+}
